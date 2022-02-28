@@ -1,0 +1,102 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(65deg, red, blue);
+}
+.box
+{
+    height: 3000px;
+    width: 833px;
+    border: 1px black dotted;
+    padding: 11px;
+   margin: auto;
+   
+}
+
+#outerborder
+{
+    height: 3025px;
+    width: 858px;
+    border: 2px black solid;
+    padding: 2px;
+    margin: auto;
+    background-color: white;
+}
+#head
+{
+    height: 188px;
+   
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    flex-wrap: initial;
+}
+#name
+{
+    font-family:  monospace;
+    font-size: 26px;
+}
+
+#hinfo1
+{
+    height: 166px;
+    width: 146px;
+   margin-top: 10px;
+   margin-left: 20px;
+    border: 1px solid;
+}
+
+#hinfo2
+{
+   
+    height: 166px;
+    width: 588px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+
+#objhead
+{
+    height: 16px;
+    background-color: gray;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 6px;
+    justify-content: center;
+}
+table,th,td
+{
+    width: 638px;
+    height: 47px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px groove black;
+    border-collapse: collapse;
+    margin-left: 96px;
+}
+
+#sign
+{
+ margin-left: 600px;
+}
+
+.text
+{
+    font-family: serif;
+    color: crimson;
+}
+
+.topic
+{
+    height: 15px;
+    width: 157px;
+    margin: auto;
+    border: groove;
+    background: antiquewhite;
+    padding: 11px;
+    border-radius: 41px;
+    padding-left: 85px;
+}
